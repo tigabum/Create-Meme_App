@@ -1,0 +1,36 @@
+body{
+    padding: 65px;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.canvas-area{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.img-canvas{
+    border: 1px solid #000000;
+}
+.input-area{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border: 1px solid #000000;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  
+}
+.form-group{
+    width: 90%;
+}
+.download-button{
+    margin-top:10px;
+}
